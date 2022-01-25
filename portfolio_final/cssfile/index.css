@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.cont{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,1);
+}
+.cont .left{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+.cont .right{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.year{
+    font-family: cursive;
+    font-size: 10px;
+}
+.prof{
+    color: #fff;
+}
